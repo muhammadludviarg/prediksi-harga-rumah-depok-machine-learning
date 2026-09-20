@@ -1,0 +1,30 @@
+{
+  "nama_model": "Stacking Ensemble",
+  "batas_input": {
+    "Kamar_Tidur": [
+      2,
+      18
+    ],
+    "Kamar_Mandi": [
+      1,
+      16
+    ],
+    "Garasi": [
+      0,
+      6
+    ],
+    "Luas_Tanah": [
+      40,
+      1670
+    ],
+    "Luas_Bangunan": [
+      35,
+      1000
+    ]
+  },
+  "metrik_uji": {
+    "R2": 0.8472442633532535,
+    "MAPE": 21.87733139142332,
+    "MAE": 440860331.7381595
+  }
+}
