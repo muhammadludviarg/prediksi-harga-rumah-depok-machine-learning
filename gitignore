@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Notebook & editor
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Streamlit (jangan pernah commit secrets)
+.streamlit/secrets.toml
+
+# File sementara / OS
+.DS_Store
+Thumbs.db
+artefak_streamlit.zip
