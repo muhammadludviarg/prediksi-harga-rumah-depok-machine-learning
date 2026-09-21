@@ -1,17 +1,17 @@
 {
-  "nama_model": "Stacking Ensemble",
+  "nama_model": "XGBoost",
   "batas_input": {
     "Kamar_Tidur": [
-      2,
-      18
+      1,
+      284
     ],
     "Kamar_Mandi": [
       1,
-      16
+      180
     ],
     "Garasi": [
       0,
-      6
+      25
     ],
     "Luas_Tanah": [
       40,
@@ -23,8 +23,8 @@
     ]
   },
   "metrik_uji": {
-    "R2": 0.8472442633532535,
-    "MAPE": 21.87733139142332,
-    "MAE": 440860331.7381595
+    "R2": 0.8706761002540588,
+    "MAPE": 22.402313351631165,
+    "MAE": 426145664.0
   }
 }
